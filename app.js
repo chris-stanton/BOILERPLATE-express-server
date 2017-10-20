@@ -10,12 +10,12 @@ const port = process.env.PORT || 5000;
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
 
-// express middleware
+// express middleware (public folder)
 app.use(express.static(path.join(__dirname, './public')));
 
 
 // static file(s)
-// app.get('/', function(req, res) {
+// app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, './public/index.html'));
 // });
 

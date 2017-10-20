@@ -1,0 +1,18 @@
+{
+  "name": "express boilerplate",
+  "version": "1.0.0",
+  "description": "basic express boilerplate",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "author": "Chris Stanton",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "path": "0.12.7",
+    "pg": "7.3.0"
+  }
+}

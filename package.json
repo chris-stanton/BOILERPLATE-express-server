@@ -1,5 +1,5 @@
 {
-  "name": "express boilerplate",
+  "name": "express",
   "version": "1.0.0",
   "description": "basic express boilerplate",
   "main": "app.js",

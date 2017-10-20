@@ -1,12 +1,14 @@
 
-# Koa Server Boilerplate
+# ExpressJS Server Boilerplate
 
 ## Description:
-###### Basic Koa server boilerplate.  Refer to http://koajs.com/ for documentation.
+###### Basic ExpressJS server boilerplate.  Refer to https://expressjs.com/ for documentation.
 
 ## Technologies Used:
-  1. Koa
-  2. Koa-router
+  1. Express
+  2. Body-parser
+  3. Path
+  4. PG
 
 ## Install App:
   1. Download zip file or ``git clone`` repo
@@ -15,7 +17,7 @@
     - `` npm install `` Installs Node dependencies from package.json
     - ``` npm start ``` Starts server
     - ``` npm test ``` Starts server using Nodemon
-  4. Koa server is listening on port: 5000
+  4. Express server is listening on port: 5000
 
 
 ## License
